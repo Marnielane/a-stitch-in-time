@@ -40,6 +40,7 @@ function TodoList() {
 
     return (
         <div>
+            {/* <img src="./images/WSLogo.png" alt="logo"/> */}
             <h1>A Stitch In Time Saves Nine</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
