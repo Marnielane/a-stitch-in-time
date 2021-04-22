@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Todo from './Todo';
 import TodoForm from './TodoForm'
+// import Logo from './images/WSLogo.png'
 
 function TodoList() {
     const [todos, setTodos] = useState([]);
@@ -40,8 +41,8 @@ function TodoList() {
 
     return (
         <div>
-            {/* <img src="./images/WSLogo.png" alt="logo"/> */}
-            <h1>A Stitch In Time Saves Nine</h1>
+            <img src="WSLogo.png" alt="logo"/>
+            {/* <h1>A Stitch In Time Saves Nine</h1> */}
             <TodoForm onSubmit={addTodo} />
             <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo} />
         </div>

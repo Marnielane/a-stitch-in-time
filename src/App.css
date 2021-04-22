@@ -7,11 +7,6 @@
 }
 
 body {
-  /* background: linear-gradient(
-    90deg,
-    rgba(48, 16, 255, 1) 0%,
-    rgba(100, 115, 255, 1) 100%
-  ); */
   background-image: url('./images/rainbowy.jpeg');
   background-repeat: no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -27,7 +22,6 @@ body {
   width: 650px;
   min-height: 600px;
   background: #161a2b;
-  /* background-image: url('./images/wood.jpeg'); */
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
