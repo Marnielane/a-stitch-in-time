@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url('./images/rainbowy.jpeg');
+  background-image: url('./images/rainbowy.svg');
   background-repeat: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
